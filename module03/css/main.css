@@ -9,7 +9,7 @@ html {
 }
 body {
     font-family: 'Playfair Display', serif;
-    color; rgb(98,98,98);
+    color: rgb(98,98,98);
     font-size: 14px;
     line-height: 24px;
 }
@@ -86,7 +86,6 @@ h2 {
 button {
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
     margin-bottom: 70px;
     margin-left: 360px;
     margin-right: 380;
