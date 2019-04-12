@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+img {
+    display: blok;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 901px;
+    margin: 0 auto;
+
+}
+.main-nav {
+    padding: 50px;
+}
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.main-menu li {
+    display: inline-block;
+    margin-right: 100px;
+}
+.main-menu li:last-child {
+    margin-right: 0;
+}
+.main-menu a:hover,
+.main-menu a:focus {
+    color: red;
+}
+.main-menu-link {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    margin-bottom: 94px;
+}
+.article-block:nth-child(2n) {
+    margin-right: 0;
+}
+.article-block:nth-last-child(-n + 2) {
+    margin-bottom: 56px;
+}
+.article-block {
+    display: inline-block;
+    width: 420px;
+    height: 480px;
+   margin-right: 56px;
+   margin-bottom: 138px;
+}
+.main-content-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300; 
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+
+}
+.main-content-image {
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.button {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
