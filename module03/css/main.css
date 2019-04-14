@@ -20,8 +20,7 @@ img {
 }
 .container {
     width: 901px;
-    margin: 0 auto;
-
+    margin: auto;
 }
 .main-nav {
     padding: 50px;
@@ -55,9 +54,6 @@ img {
 .article-block:nth-child(2n) {
     margin-right: 0;
 }
-.article-block:nth-last-child(-n + 2) {
-    margin-bottom: 56px;
-}
 .article-block {
     display: inline-block;
     width: 420px;
@@ -83,12 +79,16 @@ h2 {
     line-height: 36px;
     margin-bottom: 40px;
 }
-button {
+* {
+outline: 1px solid red;
+}
+.box-in {
     font-size: 20px;
     line-height: 24px;
+    width: 160px;
+    height: 60px;
+    margin-top: -60px;
     margin-bottom: 70px;
-    margin-left: 360px;
-    margin-right: 380;
-    width: 164px;
-    height: 60px;   
+    margin-left: 370px;
+    margin-right: 370;
 }
