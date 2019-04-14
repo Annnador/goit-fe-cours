@@ -69,7 +69,6 @@ img {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     margin-bottom: 32px;
-
 }
 .main-content-image {
     margin-bottom: 30px;
@@ -78,9 +77,6 @@ h2 {
     font-size: 30px;
     line-height: 36px;
     margin-bottom: 40px;
-}
-* {
-outline: 1px solid red;
 }
 .box-in {
     font-size: 20px;
