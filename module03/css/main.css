@@ -10,8 +10,7 @@ html {
 body {
     font-family: 'Playfair Display', serif;
     color: rgb(98,98,98);
-    font-size: 14px;
-    line-height: 24px;
+    margin: 0;
 }
 img {
     display: blok;
@@ -19,11 +18,15 @@ img {
     height: auto;
 }
 .container {
-    width: 901px;
-    margin: auto;
+    width: 900px;
+    margin: 0 auto;
+}
+.main-heder {
+    margin-bottom: 76px;
 }
 .main-nav {
-    padding: 50px;
+    margin-top: 74px;
+    margin-bottom: 94px;
 }
 .main-menu {
     list-style: none;
@@ -32,7 +35,7 @@ img {
     text-align: center;
     vertical-align: middle;
 }
-.main-menu li {
+.main-menu-item {
     display: inline-block;
     margin-right: 100px;
 }
@@ -44,21 +47,22 @@ img {
     color: rgb(0,0,255);
 }
 .main-menu-link {
+    display: block;
     font-size: 14px;
     line-height: 24px;
     color:rgb(98,98,98);
     text-transform: uppercase; 
     text-decoration: none; 
-    margin-bottom: 94px;
+    margin-bottom: 0;
 }
 .article-block:nth-child(2n) {
     margin-right: 0;
 }
 .article-block {
     display: inline-block;
-    width: 420px;
-    height: 480px;
-   margin-right: 56px;
+    width: 418px;
+    margin: 0;
+   margin-right: 60px;
    margin-bottom: 138px;
 }
 .main-content-subtitle {
@@ -68,23 +72,32 @@ img {
     font-weight: 300; 
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
+    margin: 0;
     margin-bottom: 32px;
 }
 .main-content-image {
     margin-bottom: 30px;
 }
-h2 {
+.headline {
     font-size: 30px;
     line-height: 36px;
+    margin: 0;
     margin-bottom: 40px;
+}
+.last-p {
+    margin-bottom: 0;
+
 }
 .box-in {
     font-size: 20px;
     line-height: 24px;
     width: 160px;
     height: 60px;
-    margin-top: -60px;
-    margin-bottom: 70px;
-    margin-left: 370px;
-    margin-right: 370;
+    display: block;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.rest {
+    padding-bottom: 60px;
+    margin: avto;
 }
