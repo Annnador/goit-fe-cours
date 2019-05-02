@@ -1,0 +1,49 @@
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.site-navigation {
+    font-size: 14px;
+    list-style: none;
+}
+.site-navigation a {
+    color: #0f0101;
+    font-weight: bold;
+    font-family: Open Sans;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+}
+h2 {
+    color: #555252;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+
+}
+.product-list {
+    font-size: 18px;
+    list-style: none;
+}
+.product-list a {
+    background-color: #323232;
+    color: #ffffff;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.news-list {
+    list-style: none;
+}
+p {
+    color: #555252;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.news {
+    font-size: 14px;
+    font-weight: 400;
+}
