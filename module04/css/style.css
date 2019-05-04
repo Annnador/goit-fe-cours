@@ -43,12 +43,13 @@ font-family: 'Roboto', sans-serif;
     margin-right: 0;
 }
 .site-navigation a {
-    color: #0f0101;
+    cololor: #0f0101;
     font-weight: bold;
     font-family: Open Sans;
     text-transform: uppercase;
     text-decoration: none; 
 }
+/* HOVER NAVIGATION */
 .site-navigation a:hover {
     color: #1abc9c;
 }
@@ -112,14 +113,18 @@ h2::after {
     width: 256px; 
     padding-left: 10px;
 }
+/* HOVER PRODUCT */
 .product-list-item:hover .product-list {
     background-color: #1abc9c;
 }
 .product-list-item:hover .prise {
     background-color: #7fd9c7;
 }
-.product-list a:focus {
+.product-list-item:focus .product-list {
     background-color: #1abc9c;
+}
+.product-list-item:focus .prise {
+    background-color: #7fd9c7;
 }
 .prise {
     display: inline-block;
@@ -175,6 +180,7 @@ p.news-info {
     font-weight: 400;
     margin: 0;
 }
+/* BOTTOM */
 bottom {
     display: inline-block;
     color: #ffffff;
