@@ -17,6 +17,7 @@ font-family: 'Roboto', sans-serif;
     padding: 20px 0;
    width: 1114px;
    margin: 0 auto;  
+   margin-bottom: 90px;
 }
 .site-logo {
     display: inline-block;
@@ -43,7 +44,7 @@ font-family: 'Roboto', sans-serif;
     margin-right: 0;
 }
 .site-navigation a {
-    cololor: #0f0101;
+    color: #0f0101;
     font-weight: bold;
     font-family: Open Sans;
     text-transform: uppercase;
@@ -58,14 +59,16 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* H2 */
-h2 {
+.headline {
     color: #555252;
     font-size: 48px;
     line-height: 114px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    margin-bottom: 60px;
 }
-h2::after {
+.headline::after {
     display: block;
     content: "";
     height: 8px;
@@ -79,6 +82,7 @@ h2::after {
     width: 1114px;
     margin: 0 auto;
     padding: 0;
+    margin-bottom: 90px;
     
 }
 .product-list {
@@ -140,6 +144,7 @@ h2::after {
     width: 1114px;
     margin: 0 auto;
     padding: 0;
+    margin-bottom: 44px;
 }
 .news-list {
     font-size: 0;
@@ -149,9 +154,7 @@ h2::after {
 }
 .news-list-item {
     width: 350px;
-    height: 540px;
     float: left;
-    margin-bottom: 44px;
 }
 .news-list-item:not(:nth-child(3n)) {
     margin-right: 30px;
@@ -164,6 +167,8 @@ p.news-title {
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
+    margin: 0;
+    margin-bottom: 30px;
 }
 .news-title::after {
     display: block;
@@ -179,9 +184,10 @@ p.news-info {
     font-size: 14px;
     font-weight: 400;
     margin: 0;
+    margin-bottom: 18px;
 }
 /* BOTTOM */
-bottom {
+.key {
     display: inline-block;
     color: #ffffff;
     width: 160px;
@@ -193,6 +199,7 @@ bottom {
     background-color: #4ec6ab;
     text-align: center;
     padding-top: 10px;
-    margin-top: 18px;
+    text-decoration: none;
+    
 
 }
