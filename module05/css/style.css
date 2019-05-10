@@ -1,6 +1,4 @@
-/* {
-    outline: 1px solid red;
-}/
+
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -9,7 +7,7 @@ body {
 .wrapper {
     width: 1110px;
     margin: 0 avto;
-    margin-left: 246px;
+    margin-left: 350px;
 }
 .site-navigation {
     list-style: none;
@@ -19,9 +17,13 @@ body {
 }
 .item {
     text-decoration: none;
+   
+
 }
 .nav {
     display: inline-block;
+    font-family: Open Sans;
+font-weight: 900;
     margin-right: 38px;
     text-transform: uppercase;
     line-height: 30px;
@@ -40,6 +42,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 /* HOVER NAVIGATION */
 .nav a:hover {
     color: #1abc9c;
@@ -47,10 +50,18 @@ body {
 .nav a:focus {
     color: #1abc9c;
 }
+
 /* FONE */
 .fon-photo {
     position: relative;
     height: 602px;
+    margin-bottom: 60px;
+   
+}
+.fone-pic {
+    display: block;
+    width: 100%;
+    
 }
 .slider {
     position: absolute;
@@ -84,18 +95,44 @@ body {
 }
 .slider-name {
     position: absolute;
+    width: 770px;
+    height: 170px;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+.name-slider {
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.text-slider {
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.collection {
+    padding-bottom: 100px;
+}
 
 /* H3 NEW COLLECTION */
+.collection-bacground {
+    display: block;
+    background-color: #e9f0fd;
+    padding-top: 100px;
+}
 .collection-name {
     font-family: Roboto;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 48px;
     text-align: center;
+    margin: 0;
+    line-height: 110px;
 }
 .collection-name::after {
     display: block;
@@ -112,8 +149,6 @@ body {
     width: 254px;
     height: 322px;
     position: relative;
-    
-   
 }
 .card:not(:nth-child(4n)) {
     margin-right: 26px;
@@ -121,35 +156,36 @@ body {
 .menu {
     padding: 0;
     text-decoration: none;
+    padding-top: 80px;
 }
 .img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    height: avto;
 }
 .product-list {
-display: inline-block;
-box-sizing: border-box;
-width: 254px;
-height: 40px;
-font-size: 18px;
-line-height: 40px;
-text-transform: uppercase;
-text-decoration: none;
-background-color: #323232;
-color: #ffffff;
-padding-left: 20px;
-position: absolute;
-bottom: 0;
-}
-.prise {
     display: inline-block;
+    box-sizing: border-box;
+    width: 254px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #323232;
+    color: #ffffff;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    }
+.prise {
+    display: block;
     box-sizing: border-box;
     float: right;
     background-color: #909090;
     width: 54px;
     height: 40px;
     padding-left: 12px;
-    vertical-align: middle
 }
 .tpansparent-background {
     display: inline-block;
@@ -169,6 +205,8 @@ bottom: 0;
 .card:hover .tpansparent-background {
     background-color: rgba(115, 115, 115, 0.8);
 }
+
+/* ICONS INSIDE CARD */
 .inside {
     display: inline-block;
     box-sizing: border-box;
@@ -178,6 +216,10 @@ bottom: 0;
     border: none;
     right: 36px;
     top: 80px;
+    opacity: 0;
+}
+.inside:hover {
+    opacity: 1;
 }
 .in {
     display: inline-block;
@@ -225,6 +267,7 @@ bottom: 0;
     background-repeat: no-repeat;
     background-position: center;
 }
+/* BASKET BATTON */
 .add {
     display: inline-block;
     text-transform: uppercase;
@@ -235,27 +278,42 @@ bottom: 0;
     padding-bottom: 4px;
     line-height: 46px;
 }
-.add::before {
-    display: inline-block;
-    content: "";
+.basket-in {
+    display: block;
     height: 28px;
     width: 28px;
     background-image: url(../img/basket.png);
-    padding-right: 10px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
 }
-.visually-hidden:not(:focus):not(:active),input[type='checkbox'].visuali-hidden,input[type='radio'].visually-hidden {
-        position: absolute;
-      
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-      
-        white-space: nowrap;
-      
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-      }
+/* FOOTER */
+.foot {
+    display: block;
+   text-align: center;
+   background-color: #323232;
+   line-height: 100px;
+   margin: 0 avto;
+   font-size: 16px;
+   color: #ffffff
+}
+/* FOOTER CONTENT */
+.first {
+    color: #ffffff;
+}
+.first::after {
+    content: "\233e"
+}
+.second {
+    color: #ffffff;
+}
+.second::after {
+    content: "|"
+}
+.third {
+    color: #ffffff;
+    margin-right: 4px;
+}
+.fore {
+    color: #1abc9c
 }

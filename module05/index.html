@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,900" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,900"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <title>Module05</title>
@@ -15,9 +18,16 @@
       <nav>
         <div class="wrapper">
           <div class="navigation clearfix">
-            <a href="#" class="site-logo">
-              <img src="img/logo.png" alt="site logo" width="78" height="20" />
+            <a href="#">
+              <img
+                class="site-logo"
+                src="img/logo.png"
+                alt="site logo"
+                width="78"
+                height="20"
+              />
             </a>
+            <!-- SITE NAVIGATION -->
             <ul class="site-navigation">
               <li class="nav"><a class="item" href="#">Home</a></li>
               <li class="nav"><a class="item" href="#">About us</a></li>
@@ -30,63 +40,135 @@
         </div>
       </nav>
     </header>
-   <section class="fon-photo">
-    <img class="fone-pic" src="img/fon.png" alt="Fon" width="1602" height="602">
-    <div class="slider">
-      <div class="button-left"></div>
-        <div class="button-right"></div>
-        <div class="slider-name">
-          <h2 class="name-slider">Affordable Paris Tours</h2>
-          <p class="text-slider">Siti tours/Tours ticets/Your guides</p>
+    <!-- SLIDER -->
+    <section class="body-fon">
+      <section class="fon-photo">
+        <img class="fone-pic" src="img/fon.png" alt="Fon" />
+        <div class="slider">
+          <div class="button-left"></div>
+          <div class="button-right"></div>
+          <div class="slider-name">
+            <h2 class="name-slider">Affordable Paris Tours</h2>
+            <p class="text-slider">Siti tours/Tours ticets/Your guides</p>
+          </div>
         </div>
-    </div>
-   </section>
-   <section class="collection wrapper">
-     <h3 class="collection-name">New collection</h3>
-     <ul class="menu">
-       <li class="card">
-        <img class="img" src="img/card1.png" alt="pfoto clouse1" width="" height="322">
-        <a class="product-list clearfix" href="#">Blue tshirt<span class="prise">$26</span>
-      </a>
-      <div class="tpansparent-background"></div>
-       </li>
-       <li class="card">
-         <img class="img" src="img/card2.png" alt="pfoto clouse1" width="327" height="322">
-         <a class="product-list clearfix" href="#"
-              >Woman tshirt
-              <span class="prise">$31</span>
-            </a>
-            <div class="tpansparent-background"></div>
-       </li>
-       <li class="card">
-         <img class="img" src="img/card3.png" alt="pfoto clouse1" width="327" height="322">
-         <a class="product-list clearfix" href="#"
-         >Yellow tshirt
-         <span class="prise">$21</span>
-       </a>
-       <div class="tpansparent-background"></div>
-      </li>
-       <li class="card"><img class="img" src="img/card4.png" alt="pfoto clouse1" width="327" height="322">
-        <a class="product-list clearfix" href="#"
-        >Cool lingery
-        <span class="prise">$56</span>
-      </a>
-      <div class="tpansparent-background">
-        <div class="inside">
-          <span class="visually-hidden">Like></span>
-          <button class="heart in"></button>
-          <button class="arrow in"></button>
-          <button class="clock in"></button>
-          <button class="basket">
-            <p class="add">Add to card</p>
-          </button>
-          </button>
-        </div>
+      </section>
+      <!-- COLLECTOIN CARDS -->
+      <div class="collection-bacground">
+        <section class="collection wrapper">
+          <h3 class="collection-name">New collection</h3>
+          <ul class="menu">
+            <li class="card">
+              <img
+                class="img"
+                src="../module05/img/category-1.png"
+                alt="pfoto clouse"
+                width="327"
+                height="322"
+              />
+              <a class="product-list clearfix" href="#"
+                >Cool lingery
+                <span class="prise">$56</span>
+              </a>
+              <div class="tpansparent-background">
+                <div class="inside">
+                  <button class="heart in"></button>
+                  <button class="arrow in"></button>
+                  <button class="clock in"></button>
+                  <button class="basket">
+                    <p class="add clearfix">
+                      <span class="basket-in"></span>Add to card
+                    </p>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="img"
+                src="../module05/img/category-2.png"
+                alt="pfoto clouse2"
+                width="327"
+                height="322"
+              />
+              <a class="product-list clearfix" href="#"
+                >Woman tshirt
+                <span class="prise">$31</span>
+              </a>
+              <div class="tpansparent-background">
+                <div class="inside">
+                  <button class="heart in"></button>
+                  <button class="arrow in"></button>
+                  <button class="clock in"></button>
+                  <button class="basket">
+                    <p class="add clearfix">
+                      <span class="basket-in"></span>Add to card
+                    </p>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="img"
+                src="../module05/img/category-3.png"
+                alt="pfoto clouse3"
+                width="327"
+                height="322"
+              />
+              <a class="product-list clearfix" href="#"
+                >Yellow tshirt
+                <span class="prise">$21</span>
+              </a>
+              <div class="tpansparent-background">
+                <div class="inside">
+                  <button class="heart in"></button>
+                  <button class="arrow in"></button>
+                  <button class="clock in"></button>
+                  <button class="basket">
+                    <p class="add clearfix">
+                      <span class="basket-in"></span>Add to card
+                    </p>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="img"
+                src="../module05/img/category-4.png"
+                alt="pfoto clouse"
+                width="327"
+                height="322"
+              />
+              <a class="product-list clearfix" href="#"
+                >Cool lingery
+                <span class="prise">$56</span>
+              </a>
+              <div class="tpansparent-background">
+                <div class="inside">
+                  <button class="heart in"></button>
+                  <button class="arrow in"></button>
+                  <button class="clock in"></button>
+                  <button class="basket">
+                    <p class="add clearfix">
+                      <span class="basket-in"></span>Add to card
+                    </p>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
       </div>
-      </li>
-     </ul>
-   </section>
-   
- 
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <p class="foot">
+        <span class="first">Rigths Reserved</span
+        ><span class="second">Docan</span><span class="third">Designet</span
+        ><span class="fore">Themen Graph</span>
+      </p>
+    </footer>
   </body>
 </html>
