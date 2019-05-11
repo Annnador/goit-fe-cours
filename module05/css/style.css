@@ -6,29 +6,28 @@ body {
 /* HEDER */
 .wrapper {
     width: 1110px;
-    margin: 0 avto;
-    margin-left: 350px;
+    margin: 0 auto;
+    
 }
 .site-navigation {
     list-style: none;
     display: block;
     float: right;
-    margin: 0;
 }
 .item {
     text-decoration: none;
-   
-
+    color: #000000;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 .nav {
     display: inline-block;
     font-family: Open Sans;
-font-weight: 900;
+    font-weight: 900;
     margin-right: 38px;
     text-transform: uppercase;
     line-height: 30px;
     font-size: 12px;
-    
 }
 .site-navigation li:nth-child(6) {
     margin-right: 0;
@@ -54,9 +53,6 @@ font-weight: 900;
 /* FONE */
 .fon-photo {
     position: relative;
-    height: 602px;
-    margin-bottom: 60px;
-   
 }
 .fone-pic {
     display: block;
@@ -65,10 +61,11 @@ font-weight: 900;
 }
 .slider {
     position: absolute;
-    top: 0;
-    left: 246px;
-    height: 602px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     width: 1110px;
+    height: 600px;
 }
 .button-left {
     display: inline-block;
@@ -289,11 +286,11 @@ font-weight: 900;
 }
 /* FOOTER */
 .foot {
-    display: block;
+   display: block;
    text-align: center;
    background-color: #323232;
    line-height: 100px;
-   margin: 0 avto;
+   margin-top: 0;
    font-size: 16px;
    color: #ffffff
 }
