@@ -1,0 +1,134 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+/* HEDER */
+.header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+  list-style: none;
+  text-align: center;
+  width: 480px;
+}
+.menu-item:hover {
+  color: #f5f543;
+}
+/* SERVICES */
+h2 {
+  font-size: 40px;
+  line-height: 75px;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 70px;
+}
+.services {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.services li:last-child {
+  margin: 0;
+}
+.service-item {
+  margin-right: 30px;
+}
+.img-service {
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  border: 2px solid #f5f543;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  background-repeat: no-repeat;
+}
+.one {
+  background-image: url(../img/icon1.png);
+}
+.two {
+  background-image: url(../img/icon2.png);
+}
+.three {
+  background-image: url(../img/icon3.png);
+}
+.name-service {
+  text-align: center;
+}
+.service-text {
+  text-align: center;
+}
+/* CONTACT US */
+.contact {
+  width: 100%;
+  background-color: black;
+  background-image: url(../img/map.png);
+  padding-bottom: 110px;
+  padding-top: 80px;
+}
+.contuct-title {
+  color: white;
+}
+.text-contact {
+  color: white;
+  text-align: center;
+}
+.singup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 456px;
+  height: 210px;
+  margin: 0 auto;
+}
+.singup-form input{
+    height: 50px;
+    padding-left: 26px;
+    border: 0;
+}
+.singup-form input:focus {
+    outline-color: 2px colid green;
+}
+.mesage input{
+    height: 210px;
+}
+.form {
+  display: flex;
+  width: 940px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.singup-form input:focus {
+    outline-color: 2px colid green;
+}
+.submit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 60px;
+    background-color: #f5f543;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0;
+}
+.button {
+    height: 100px;
+   position: relative;
+}
