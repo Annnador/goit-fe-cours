@@ -1,6 +1,6 @@
-/* * {
+ /* * {
   outline: 1px solid red;
-} */
+}  */
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/montserrat-v13-latin-700.woff);
@@ -18,6 +18,8 @@
   width: 320px;
   margin: 0 auto;
 }
+
+
 /* HEDER */
 .header {
   padding-top: 20px;
@@ -28,6 +30,8 @@
   background-image: url(../img/fon-min.png);
   background-color: black;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #ffffff;
   padding-bottom: 116px;
 }
@@ -59,6 +63,8 @@
   font-family: "Montserrat";
   font-weight: bold;
 }
+
+
 /* AFTER HEADER */
 h2 {
   font-family: "Montserrat";
@@ -91,20 +97,23 @@ h2 {
   text-align: center;
   padding-top: 18px;
 }
+
+
 /* BODY */
+
 .body {
     margin-bottom: 56px;
 }
 .people {
   list-style: none;
-  margin: 0 auto;
+  margin: 50px;
   padding: 0;
 }
 .card {
   text-align: center;
   width: 216px;
-  height: 216px;
-  margin: 0 auto;
+  height: auto;
+  margin: 0;
 }
 .about-us {
   font-family: "Montserrat";
@@ -163,6 +172,8 @@ h2 {
   font-weight: light;
   text-align: center;
 }
+
+
 /* BUTTON */
 .find-partners {
   display: block;
@@ -179,12 +190,108 @@ h2 {
   padding-top: 10px;
   color: red;
 }
-/* MEDIA */
+
+
+/* MEDIA 2*/
+
 @media (min-width: 768px) {
   .wrapper {
-    max-width: 768px;
+    width: 768px;
+  }
+  .body {
+      margin-bottom: 36px;
   }
   .head {
     background-image: url(../img/fon-big.png);
+    padding-bottom: 244px;
   }
+  .people {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      margin-bottom: 36px;
+      width: 500px;
+  }
+  .header {
+      padding-bottom: 156px;
+  }
+.login {
+    float: right;
+}
+.text-header {
+    float: left;
+    margin: 0 auto;
+    padding: 10px;
+    
+} 
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.h2 {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 130px;
+}
+h2 {
+    font-size: 50px;
+}
+.find-partner {
+    width: 216px;
+}
+.text-picture {
+    font-size: 24px;
+    margin: 40px;
+}
+.first {
+    margin-right: 36px;
+}
+.two {
+    order: 1;
+        }
+          .four {
+    order: 2;
+          }
+
+
+/* MEDIA 3 */
+
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+    .people:not(:nth-last-child) {
+        margin-right: 24px;
+      }
+}
+@media (min-width: 940px) {
+    .wrapper {
+        width: 940px;
+    }
+    .people {
+    width: 780px;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+    }
+    .head {
+        background-image: url(../img/fon-max.png); 
+      }
+    .two {
+order: 1;
+    }
+      .four {
+order: 2;
+      }
+    .card {
+        margin-right: 30px;
+    }
+     .about-us {
+         margin-top: 70px;
+     }
+    .for-photo::before {
+        content: "";
+        right: 14px;
+        bottom: 2px;
+    }
 }
