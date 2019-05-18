@@ -42,26 +42,23 @@ body {
   color: #15bbc7;
   text-decoration: none;
 }
-.item-men:hover {
+.item-men {
   display: block;
-  color: #ffcccc;
-  border-bottom: #ffcccc solid 4px;
   height: 26px;
 }
-/* .menu-item:hover::after {
-    contain: "";
-    display: block;
-    width: 50px;
-    height: 4px;
-    background-color:  blue;
-    margin: 0 avto;
-} */
+.item-men:hover {
+  color: #ffcccc;
+  border-bottom: #ffcccc solid 4px;
+  transition: 0.2s linear;
+}
+
 /* ABOUT US H2, H3 */
 .abou-us {
   font-size: 24px;
   font-family: "Kaushan Script", cursive;
   font-style: italic;
   text-align: center;
+  margin: 0 auto;
 }
 .serwices {
   font-size: 30px;
@@ -105,6 +102,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
 }
 /* FON PICTURES */
 .alarm::before {
@@ -164,10 +162,10 @@ body {
 .about-list:nth-child(-n + 3) {
   margin-bottom: 30px;
 }
-*/ .about {
+.about {
   width: 1200px;
   margin: 0 avto;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 /* OUR TEAM */
 .team {
@@ -180,6 +178,7 @@ body {
   text-align: center;
   padding-left: 120px;
   padding-right: 120px;
+  margin: 0 auto;
   margin-bottom: 100px;
 }
 /* CARDS TEAM */
@@ -205,7 +204,7 @@ body {
   opacity: 0.5;
   background-image: linear-gradient(to bottom, #ff9999, #ffff99);
   box-shadow: 10px 10px 0 rgba(153, 204, 255, 0.7);
-  transition: box-shadow 0.4s linear;
+  transition: box-shadow 0.2s linear;
 }
 .name {
   text-transform: uppercase;
@@ -216,6 +215,7 @@ body {
   color: rgb(153, 140, 140);
   font-style: italic;
   text-align: center;
+  margin: 0 auto;
 }
 /* ICONS */
 .for-icons {
@@ -226,6 +226,7 @@ body {
 .icons {
   list-style: none;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   position: absolute;
   top: 50%;
@@ -234,9 +235,11 @@ body {
   padding: 0;
   margin: 0 auto;
   opacity: 0;
+  width: 230px;
 }
 .team-list:hover .icons {
   opacity: 1;
+  transition: 0.2s linear;
 }
 .social {
   display: block;
@@ -249,6 +252,7 @@ body {
 }
 .social:hover {
   background-color: #99cccc;
+  transition: 0.2s linear;
 }
 .facebook {
   background-image: url(../img/icons/facebook.png);
@@ -263,6 +267,9 @@ body {
   background-image: url(../img/icons/instagram.png);
 }
 /* FOOTER */
+.info {
+  line-height: 60px;
+}
 .info::before {
   content: "\233e";
 }
@@ -283,7 +290,7 @@ body {
   line-height: 40px;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 26px;
 }
 .button {
   width: 150px;
