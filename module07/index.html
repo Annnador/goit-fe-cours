@@ -10,11 +10,12 @@
 </head>
 <body>
           <!-- HEDER -->
-          <nav>
-          <header class="header wrapper">
-            <div class="logo">
+          <header>
+<nav>
+          <div class="head wrapper">
+            <a class="logo">
               <img src="img/logo.png" alt="logo" width="86" height="24" />
-            </div>
+            </a>
             <ul class="menu">
               <li class="menu-item"><a class="item-men">Home</a></li>
               <li class="menu-item"><a class="item-men">Services</a></li>
@@ -22,9 +23,10 @@
               <li class="menu-item"><a class="item-men">About</a></li>
               <li class="menu-item"><a class="item-men">Contact</a></li>
             </ul>
-          </header>
+          </div>
         </div>
         </nav>
+        </header>
           <main>
               <section class="wrapper">
                   <h2>Services</h2>
@@ -48,26 +50,29 @@
                   </ul>
               </section>
               <section class="contact">
-                  
+                  <div class="wrapper">
                 <h2 class="contuct-title">Comtact us</h2>
                 <p class="text-contact">Lorem ipsum dolor sit amet consectetur.</p>
+               <div>
                 <div class="form">
                     <div class="info-name inform">
                     <form class="singup-form" method="get" action="#">
-                        <input type="text" placeholder="Your name *" autofocus name="user-name" required>
-                        <input type="email" placeholder="Your e-mail *" name="user-email">
+                        <input class="required" type="text" placeholder="Your name *" autofocus name="user-name" required>
+                        <input class="required" type="email" placeholder="Your e-mail *" name="user-email" required>
                         <input type="text" placeholder="Subject" name="user">
                     </form>
                 </div>
                 <div class="contact-mesage">
                     <form class="singup-form mesage">
-                        <textarea name="message" id="" cols="53" rows="12" placeholder="Your Message...*" required></textarea> 
+                        <textarea class="required" name="message" id="" cols="53" rows="12" placeholder="Your Message...*" required></textarea> 
                     </div>
                     </div>
                     <div class="button">
                     <button class="submit">Send message</button>
                 </div>
-                <div class="map">map</div>
+              <!-- </div>
+                <div class="map">map</div> -->
+              </div>
               </section>
 
           </main>

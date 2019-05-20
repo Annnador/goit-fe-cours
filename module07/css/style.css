@@ -24,7 +24,7 @@
   margin: 0 auto;
 }
 /* HEDER */
-.header {
+.head {
   min-height: 100px;
   display: flex;
   justify-content: space-between;
@@ -38,8 +38,12 @@
   list-style: none;
   text-align: center;
   width: 480px;
+  margin: 0 auto;
+  margin-right: 0;
+  padding: 0;
 }
 .item-men {
+  display: block;
   font-family: Montserrat;
   font-weight: normal;
   text-transform: uppercase;
@@ -61,6 +65,7 @@ h2 {
   font-weight: normal;
   text-align: center;
   font-size: 16px;
+  margin: 0 auto;
   margin-bottom: 70px;
 }
 .services {
@@ -102,16 +107,19 @@ h2 {
 }
 .service-text {
   text-align: center;
+  margin: 0 auto;
 }
 /* CONTACT US */
 .contact {
   width: 100%;
-  background-color: black;
-  /* background-image: url(../img/map.png); */
+  background-color: black; 
   padding-bottom: 110px;
   padding-top: 80px;
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
-.map {
+ /* .map {
   background-image: url(../img/map.png);
   background-repeat: no-repeat;
   position: absolute;
@@ -119,10 +127,10 @@ h2 {
   width: 600px;
   height: 600px;
   top: 820px;
-}
+}  */
 .contuct-title {
   color: white;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 .text-contact {
   font-family: Titillium Web;
@@ -162,26 +170,12 @@ h2 {
   outline: 0;
   padding-bottom: 5px;
 }
-/* .form input[name='email']:valid{
-  border-color: green;
-} */
-.singup-form input[name="user-name"]:invalid {
-  border-color: red;
+
+.required:valid {
+  border: 2px solid green;
 }
-.singup-form input[name="user-email"]:invalid {
-  border-color: red;
-}
-.singup-form input[name="Message"]:invalid {
-  border-color: red;
-}
-.singup-form input[name="user-name"]:valid {
-  border-color: green;
-}
-.singup-form input[name="user-email"]:valid {
-  border-color: green;
-}
-.singup-form input[name="message"]:valid {
-  border-color: green;
+.required:invalid {
+  border: 2px solid red;
 }
 
 .submit {
